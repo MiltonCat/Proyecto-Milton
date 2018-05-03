@@ -1,0 +1,19 @@
+body{
+  background-image: url('');
+  background-size: cover;
+
+}
+.formulario-container{
+  margin-top: 0.5rem;
+  background-color: gray;
+
+}
+
+.fieldset legend{
+  background-color: lightblue;
+}
+
+textarea{
+  resize: none;
+  height: 6rem;
+}

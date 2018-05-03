@@ -8,6 +8,20 @@
 html {
   background: #f7f7f7;
 }
+#id-rrss{
+  float: right;
+  background-color: green;
+
+}
+
+.cuadro{
+  color:#fff;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 72px;
+  line-height: 50%,
+
 
 }
 
