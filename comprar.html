@@ -102,7 +102,7 @@
 				<div class="fh5co-text">
 					<div class="container">
 						<div class="row text-center">
-							<h1 class="animate-box">La Patagonia mas<br>Cerca tuyo!</h1>
+							<h1 class="animate-box"><strong>Como compramos?</strong></h1><br><h3>Tu proximo paso para una buena compra.</h3>
 							<div class="fh5co-go animate-box">
 								<a href="#" class="js-fh5co-next">
 									<h2></h2>
@@ -132,20 +132,14 @@
 				</div>
 
 				<div class="row">
+
 					<figure class="animate-box">
 						<img src="images/" alt="" class="img-responsive">
 					</figure>
 				</div>
 			</div>
 		</div>
-		<!--Terminos y Condiciones-->
-		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-left section-heading">
-		<a href="terminos.html"><span><img src="images/Terminos y Condiciones.jpg" alt="surMarket" class="img-responsive"></span></a>
-	<h2 class="fh5co-section-title animate-box"></h2>
-	</div>
-</div>
-<hr>
+
 <!--Footer-->
 <div id="fh5co-contac" data-section="contact">
 	<div class="container">
@@ -154,17 +148,6 @@
 			</div>
 		</div>
 	</div>
-	<div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-left section-heading">
-					<div class="fh5co-footer-widget">
-						<a href="Footer"><img src="images/footer3.png" alt="patagoniamkt" class="img-responsive"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 				 <!-- Fin de la Pagina -->
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -183,4 +166,79 @@
 </div>
 </div>
 	</body>
+</html>
+<!--Empieza la pagina de formulario -->
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de PatagoniaMKT</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="row top-bar expanded">
+      <div class="column">
+        <h1>Formulario</h1>
+      </div>
+    </div>
+    <form>
+      <div class="row small-stack medium-unstack formulario-container">
+        <div class="columns">
+          <label>Nombre completo
+            <input type="text" required class="nombre"/>
+          </label>
+          <label>Correo electrónico
+            <input type="email" required name="email"/>
+          </label>
+          <label>Fecha de nacimiento
+            <input type="date" name="fecha_nacimiento"/>
+          </label>
+        </div>
+        <div class="columns">
+          <label>Ciudad de residencia
+            <input type="text" name="ciudad_residencia"/>
+          </label>
+          <label>Dirección
+            <input type="text" name="direccion"/>
+          </label>
+          <label>Telefono
+            <input type="tel" name="telefono"/>
+          </label>
+          <label>Celular
+            <input type="tel" name="celular"/>
+          </label>
+          <div class="row">
+            <div class="column small-12">
+              <fieldset class="fieldset">
+                <legend>Género</legend>
+                <input type="radio" name="genero" value="masculino" id="masculino" required><label for="masculino">Masculino</label>
+                <input type="radio" name="genero" value="femenino" id="femenino"><label for="azul">Femenino</label>
+              </fieldset>
+            </div>
+            <div class="column">
+            </div>
+          </div>
+          <input type="submit" class="button float-right" value="Enviar" id="submit"/>
+        </div>
+      </div>
+    </form>
+    <div id="fh5co-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-left section-heading">
+            <div class="fh5co-footer-widget">
+              <a href="Footer"><img src="images/footer3.png" alt="patagoniamkt" class="img-responsive"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
